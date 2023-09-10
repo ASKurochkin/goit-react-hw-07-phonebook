@@ -1,0 +1,15 @@
+.decorSearch {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 50%;
+  border-radius: 6px;
+  padding: 5px;
+}

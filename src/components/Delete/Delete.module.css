@@ -1,0 +1,12 @@
+.delAllSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 77%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.btnDelAll {
+  padding: 5px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.listContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.contactTel {
+  display: flex;
+  gap: 5px;
+}
+.btnDel {
+  display: flex;
+  border: none;
+  background-color: inherit;
+  padding: 3px;
+}
+
+.btnDel:disabled {
+  transform: none;
+  color: gray;
+  box-shadow: none;
+}

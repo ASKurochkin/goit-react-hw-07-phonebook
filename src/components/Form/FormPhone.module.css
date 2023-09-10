@@ -1,0 +1,32 @@
+.formAddContact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.decorInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 50%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btnAdd {
+  padding: 5px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(109, 245, 109);
+}
+
+.btnAdd:disabled {
+  background-color: rgb(249, 183, 183);
+}
